@@ -1,8 +1,5 @@
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-
-a, b = b, a
-
-print("After swapping:")
-print("a =", a)
-print("b =", b)
+numbers = [10, 20, 30, 40, 50]
+first = int(input('First position: '))
+second = int(input('Second position: '))
+numbers[first], numbers[second] = (numbers[second], numbers[first])
+print(numbers)

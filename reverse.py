@@ -1,10 +1,5 @@
-num = int(input("Enter a number: "))
-
-rev = 0
-
-while num > 0:
-    digit = num % 10
-    rev = rev * 10 + digit
-    num = num // 10
-
-print("Reverse Number =", rev)
+numbers = [10, 20, 30, 40, 50]
+reversed_numbers = []
+for index in range(len(numbers) - 1, -1, -1):
+    reversed_numbers.append(numbers[index])
+print(reversed_numbers)

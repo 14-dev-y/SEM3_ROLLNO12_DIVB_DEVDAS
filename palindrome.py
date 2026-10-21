@@ -1,2 +1,5 @@
-words=["level","Dev","madam","Tanish","radar","civic"]
-print("Palindromes:",list(filter(lambda word:word.lower()==word.lower()[::-1],words)))
+numbers = [1, 2, 3, 2, 1]
+if numbers == numbers[::-1]:
+    print('Palindrome list')
+else:
+    print('Not a palindrome list')
